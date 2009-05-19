@@ -8,7 +8,7 @@ from geopy import geocoders
 import urllib, demjson, os.path
 g = geocoders.Google(resource="maps")
 
-input_file = 'rtv_mobile_oct29'
+input_file = 'your_input_file'
 
 # List of fields from the input file to include in the geocoded output file.
 target_fields = ["first_name", "middle_name", "last_name", "home_address1", "home_apt", "home_city", "home_state", "home_zip"]
